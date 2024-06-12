@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Making() {
     return (
-        <div style={{ height: "100vh", width: "100vw" }}>
+        <div style={{ height: "100vh", width: "100vw", position: "relative" }}>
             <Image src="/images/result.png" alt="page_guide" fill priority />
             <Link href={"./"} prefetch={true} style={{ position: "fixed", left: "3.5vw", zIndex: "500", height: "5vh", width: "3.5vw" }}>
                 <button style={{ height: "100%", width: "100%", backgroundColor: "transparent", cursor: "pointer" }} />
